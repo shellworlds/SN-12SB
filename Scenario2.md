@@ -1,0 +1,7 @@
+Imagine a rapidly growing AI company building a tool to review enterprise legal contracts. They scrape millions of documents to train their Large Language Model (LLM). Suddenly, a massive corporation sues them, claiming the AI company illegally used their confidential corporate documents to train the model.
+
+If the AI company relies on traditional centralized databases, their internal logs can be easily altered, meaning a judge or auditor has no reason to trust them. The AI company faces millions in fines and might be forced to delete their entire model.
+
+However, because the AI company integrated your API from day one, every single document dataset they ever ingested was automatically fingerprinted and timestamped on the blockchain via your system. When the lawsuit hits, the AI company simply pulls the immutable audit log. They mathematically prove to the court the exact origin, timestamp, and licensing status of every piece of data in their model, proving the restricted documents were never ingested.
+
+The system automatically creates a cryptographic fingerprint (a hash) of the dataset, including its licensing and consent status, and anchors it to the blockchain. It also log every time the model is updated or fine-tuned. The AI company gets a mathematically verifiable audit trail of their model's lineage without you ever needing to see or store their proprietary raw data.
